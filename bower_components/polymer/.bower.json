@@ -1,0 +1,44 @@
+{
+  "name": "polymer",
+  "main": [
+    "polymer.html",
+    "polymer-mini.html",
+    "polymer-micro.html"
+  ],
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/util/",
+    "/explainer/",
+    "gulpfile.js",
+    "PRIMER.md",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md"
+  ],
+  "authors": [
+    "The Polymer Authors (http://polymer.github.io/AUTHORS.txt)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Polymer/polymer.git"
+  },
+  "dependencies": {
+    "webcomponentsjs": "^0.7.20"
+  },
+  "devDependencies": {
+    "web-component-tester": "*",
+    "iron-component-page": "polymerElements/iron-component-page#^1.1.6"
+  },
+  "private": true,
+  "homepage": "https://github.com/Polymer/polymer",
+  "_release": "095d1b9f68",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "095d1b9f687eb5182e8f10b4b76e4465d107e078"
+  },
+  "_source": "https://github.com/Polymer/polymer.git",
+  "_target": "master",
+  "_originalSource": "Polymer/polymer"
+}
